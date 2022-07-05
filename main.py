@@ -3,13 +3,12 @@
   # says if you can cook or not
   # if not, what ingredients are missing?
 
-  
 import fridge as f, cooking as c
 
 
 """ top menu """
-# enter ingredients or cook a dish
 def top_menu():
+""" provide the choice to enter ingredients or cook a dish """
   command = input("\nEnter 'F' to stock the fridge or 'C' to cook. Enter 'Q' to exit.")
 
   
@@ -26,11 +25,11 @@ if command.upper() = 'Q':
   # quit
 
 if command.upper() = 'F':
-  # run the fridge function? aagh
-  f.enter_ingredients()
+  f.enter_ingredients() # run the function to enter ingredients into fridge
   top_menu() # after the ingredients are entered, return to the top menu
   
 if command.upper() = 'C':
   # run the cook function
-  c.cook()
+  c.cook() # check if ingredients meet requirements for recipe
   top_menu() # back to top menu
+  
