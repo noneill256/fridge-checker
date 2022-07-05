@@ -7,6 +7,12 @@ print('\nWhich of the following would you like to make?')
 for key, value in dishes:
   print(key) # prints the different dishes one can choose from
 to_cook = input('\nEnter the dish you would like to cook:')
+
+# if str(to_cook) not in dishes.key ???????????????????
+  print('You do not know this recipe.')
+else:
+#  to_cook = dishes.to_cook ?????
+# required = to_cook.values ???????????
   
 missing = []
 # a dish as a list
