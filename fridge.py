@@ -7,4 +7,4 @@ def enter_ingredients():
     ingred = input("\nEnter an ingredient. Press 'Q' when finished.")
     if ingred.upper() == 'Q':
       break
-    fridge.append(ingred)
+    fridge.append(ingred.lower())
