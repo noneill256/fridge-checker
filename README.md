@@ -1,2 +1,2 @@
 # fridge-checker
-Checks if you can cook a certain meal given the ingredients you have in the fridge.
+This program lets you enter what ingredients you have in your fridge, as well as if you can cook a certain meal given those ingredients. If you're missing ingredients, it will let you know what those are.
