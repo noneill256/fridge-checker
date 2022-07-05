@@ -16,11 +16,10 @@ else:
   
 missing = []
 # a dish as a list
+# can_cook = True ... is this required here?
 # modify this to work with a dictionary lol
 for ingredient in required:
-  if ingredient in fridge:    
-    can_cook = True
-  if ingredient not in fridge:
+  if ingredient not in f.fridge: # if there's even one missing ingredient
     can_cook = False
     missing.append(ingredient) # creating list of missing ingredients
 
