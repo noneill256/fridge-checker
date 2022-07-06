@@ -5,8 +5,7 @@
 
 import fridge as f, cooking as c
 
-
-# Pre-loading known dishes
+# Pre-loading possible dishes :)
 dishes = { 'soba power bowl': ['edamame', 'soba', 'green beans', 'rice vinegar', 'soy sauce', 'sesame oil', 'tofu', 'black bean garlic sauce'],
           'vegetable soup': ['broccoli', 'carrots', 'crushed tomatoes', 'taco seasoning', 'chickpeas', 'garlic', 'onions', 'crushed tomatoes', 'brown rice'],
           'chickpea coconut curry': ['coconut milk', 'chickpeas', 'garam masala', 'cauliflower', 'onions', 'spinach', 'white rice'],
@@ -17,7 +16,7 @@ command = ''
 
 while command.upper() != 'Q':
 	# The loop ends when 'Q' is entered.
-  command = input("\nEnter 'F' to stock the fridge or 'C' to cook. Enter 'Q' to exit.")
+ 	command = input("Enter 'F' to stock the fridge or 'C' to cook. Enter 'Q' to exit.\n")
 	
 	if command.upper() = 'F':
 		f.enter_ingredients() # run the function to enter ingredients into fridge
