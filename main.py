@@ -6,7 +6,6 @@
 import fridge as f, cooking as c
 
 
-
 command = ''
 
 while command.upper() != 'Q':
